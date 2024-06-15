@@ -1,0 +1,29 @@
+.weather-display-container {
+  margin-top: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.display-main-heading {
+  color: brown;
+  font-family: cursive;
+}
+
+.sub-headings {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+@media (min-width: 600px) {
+  .sub-headings {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sub-headings {
+    font-size: 30px;
+  }
+}
